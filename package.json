@@ -1,0 +1,15 @@
+{
+  "name": "expresstraining",
+  "version": "1.0.0",
+  "description": "Learning to use express with tutorialspoint.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin J",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  }
+}
