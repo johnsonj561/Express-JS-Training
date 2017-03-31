@@ -123,3 +123,39 @@
 - Include and Components
 	- Pug allows creation of components for a web page, like headers and footers
 
+
+----------------------------------------------------------------------------------------------------
+
+## Express Generator
+- https://expressjs.com/en/starter/generator.html
+- application generator tool that builds application skeleton and server listening on port 3000
+
+### Auto-generated Structure
+.
+├── app.js
+├── bin
+│   └── www
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+└── views
+    ├── error.pug
+    ├── index.pug
+    └── layout.pug
+
+### To Use
+- verify proper installation of node.js and npm
+	node -v to get version
+	npm -v to get version
+- install express-generator package at global scope
+	npm install express-generator -g
+- create application using express command
+	express --view=ejs myapp
+
+------------------------------------------------------------------------------------
