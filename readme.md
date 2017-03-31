@@ -131,22 +131,22 @@
 - application generator tool that builds application skeleton and server listening on port 3000
 
 ### Auto-generated Structure
-app.js
-bin
-  www
-package.json
-public
-  images
-  javascripts
-  stylesheets
-    style.css
-  routes
-    index.js
-    users.js
-  views
-    error.pug
-    index.pug
-    layout.pug
+- app.js
+- bin
+	- www
+- package.json
+- public
+	- images
+	- javascripts
+	- stylesheets
+		- style.css
+	- routes
+		- index.js
+		- users.js
+	- views
+		- error.pug
+		- index.pug
+		- layout.pug
 
 ### To Use
 - verify proper installation of node.js and npm
