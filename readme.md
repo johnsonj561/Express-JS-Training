@@ -158,3 +158,11 @@
 	express --view=ejs myapp
 
 ------------------------------------------------------------------------------------
+
+## Form Data
+- use body-parser to parse JSON and URL-Encoded data
+- use multer for parsing multipart/form data
+
+-------------------------------------------------------------------------------------
+
+
